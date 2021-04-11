@@ -1,0 +1,40 @@
+body
+{
+  background-image: url(covid2.jpg);
+  background-repeat: no-repeat;
+	margin-right: 200px;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#input-container {
+  display: flex;
+  margin: 26px 0 0 0;
+  justify-content: space-around;
+}
+
+#output-container {
+  display: flex;
+  flex-direction: column;
+  /*Akshit*/
+}
+
+#output-container > div {
+  padding: 24px;
+}
+
+#output-container > div > div {
+  margin: 24px auto;
+  border: 1px solid black;
+  text-align: center;
+  width: 50%;
+  padding: 16px;
+  background-color: blue;
+  font: bold;
+  color: white;
+}
+
+#btn1 {
+  background-color: blue;
+}
+
+/*akshit */
